@@ -1,0 +1,20 @@
+# --- Bibliotecas para Análise e Modelagem ---
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+
+# --- Bibliotecas para a API e Dashboard ---
+fastapi
+uvicorn[standard]  # 'standard' inclui otimizações de performance
+pydantic
+streamlit
+requests
+
+# --- Bibliotecas para Visualização ---
+plotly
+
+# --- Bibliotecas para Visão Computacional ---
+tensorflow
+tensorflow-addons
