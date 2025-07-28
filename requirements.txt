@@ -16,5 +16,5 @@ requests
 plotly
 
 # --- Bibliotecas para Visão Computacional ---
-tensorflow
-tensorflow-addons
+tensorflow==2.15.0
+Pillow
