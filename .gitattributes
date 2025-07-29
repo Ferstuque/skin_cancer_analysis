@@ -1,1 +1,16 @@
 *.h5 filter=lfs diff=lfs merge=lfs -text
+
+# Tratar todos os arquivos de texto como LF para consistência entre OS
+* text=auto eol=lf
+
+# Tratar especificamente scripts de shell como texto com finais de linha LF
+*.sh text eol=lf
+*.py text eol=lf
+
+# Tratar arquivos binários como binários
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pkl binary
+*.h5 binary

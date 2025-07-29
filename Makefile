@@ -27,7 +27,7 @@ build:
 
 # Executa o contêiner
 run: build
-	@echo "🚀 Executando a aplicação na porta ${HOST_PORT}..."
+	@echo "🚀 Executando a aplicacao na porta ${HOST_PORT}..."
 	docker run --rm -p $(HOST_PORT):$(CONTAINER_PORT) $(IMAGE_NAME)
 
 # Executa 'build' e 'run' em sequência
@@ -35,9 +35,9 @@ all: build run
 
 # Para todos os contêineres baseados na nossa imagem
 stop:
-	@echo "🛑 Parando qualquer contêiner da aplicação em execução..."
+	@echo "🛑 Parando qualquer conteiner da aplicação em execucao..."
 	-docker stop $(shell docker ps -a -q --filter ancestor=$(IMAGE_NAME))
-	@echo "✅ Contêineres parados."
+	@echo "✅ Conteineres parados."
 
 # Remove a imagem Docker
 clean: stop
