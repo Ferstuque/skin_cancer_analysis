@@ -6,9 +6,11 @@
 
 Este projeto foi desenvolvido como entrega do **Tech Challenge** da **Pós-Graduação IA para Devs** da **FIAP - Faculdade de Tecnologia**.
 
+![Demonstração da Aplicação](./demo.gif)
+
 ## 🎯 Objetivo do Projeto
 
-O desafio consistiu em desenvolver uma solução de Inteligência Artificial para apoiar equipes médicas no diagnóstico de lesões de pele, utilizando o dataset público **HAM10000**. Para isso, foram criados dois modelos distintos:
+O desafio consistiu em desenvolver uma solução de Inteligência Artificial para apoiar equipes médicas no diagnóstico de lesões de pele, utilizando o dataset público **[HAM10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)**. Para isso, foram criados dois modelos distintos:
 
 1.  **Modelo Tabular (XGBoost):** Um classificador de alta performance que prevê o risco de uma lesão ser **Melanoma** com base em dados clínicos do paciente (idade, sexo, localização da lesão).
 2.  **Modelo de Visão Computacional (CNN):** Um classificador de imagem, baseado na arquitetura **ResNet50V2**, que identifica o tipo da lesão (entre 7 classes) diretamente da foto.
