@@ -4,7 +4,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/Ferstuque/skin_cancer_analysis?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ferstuque/skin_cancer_analysis?style=for-the-badge)
 
-Este projeto, desenvolvido para o **Tech Challenge da Pós-Graduação em IA para Devs** da **FIAP - Faculdade de Tecnologia**, utiliza **Machine Learning**, **Redes Neurais CNN**, e **análise de dados (EDA)** em **Python** para resolver um desafio de classificação usando dados e problemas reais. A arquitetura é construída com **Docker** e exposta via **API**, com uma interface interativa em **Streamlit**.
+Este projeto é uma demonstração completa do uso de **Inteligência Artificial**. Desenvolvido para o **Tech Challenge da Pós-Graduação em IA para Devs** da **FIAP - Faculdade de Tecnologia**, utiliza **Machine Learning**, **Redes Neurais CNN**, e **análise de dados (EDA)** em **Python** para resolver um desafio de classificação usando dados e problemas reais. A arquitetura é construída com **Docker** e exposta via **API**, com uma interface interativa em **Streamlit**.
 
 ![Demonstração da Aplicação](./demo.gif)
 
